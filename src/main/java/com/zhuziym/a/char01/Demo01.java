@@ -51,29 +51,9 @@ public class Demo01 {
 		System.out.println(Arrays.toString(arrA));
 	}
 
-	/**
-	 * Returns the runtime class of this {@code Object}. The returned
-	 * {@code Class} object is the object that is locked by
-	 * {@code static synchronized} methods of the represented class.
-	 *
-	 * <p>
-	 * <b>The actual result type is {@code Class<? extends |X|>} where
-	 * {@code |X|} is the erasure of the static type of the expression on which
-	 * {@code getClass} is called.</b> For example, no cast is required in this
-	 * code fragment:
-	 * </p>
-	 *
-	 * <p>
-	 * {@code Number n = 0;                             }
-	 * {@code Class<? extends Number> c = n.getClass(); }
-	 * </p>
-	 *
-	 * @return The {@code Class} object that represents the runtime class of
-	 *         this object.
-	 * @jls 15.8.2 Class Literals
-	 */
-	@Test
-	public void testDemo2() throws Exception {
-
+	public void testCode2() {
+		Integer.toBinaryString(12);// 二进制
+		Integer.toHexString(12);// 十六进制
 	}
+
 }
