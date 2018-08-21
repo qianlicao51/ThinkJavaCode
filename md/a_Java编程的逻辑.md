@@ -102,3 +102,7 @@
 
 
 
+# 第7章
+
+`Apache的开源工具lang3里面有ArrayUtils工具`
+
