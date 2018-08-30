@@ -1,7 +1,5 @@
 package com.zhuziym.a.char01;
 
-import static org.junit.Assert.*;
-
 import java.util.Arrays;
 
 import org.junit.Test;
